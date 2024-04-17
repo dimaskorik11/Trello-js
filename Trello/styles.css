@@ -1,0 +1,94 @@
+/* Общие стили */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Заголовок */
+header {
+  padding: 20px;
+  background-color: #3a3f44;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Форма создания доски */
+.create-board-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Контейнер досок */
+.boards-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Стиль для доски */
+.board {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+/* Стиль для заголовков досок */
+.board h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Списки внутри доски */
+.list {
+  margin-bottom: 10px;
+}
+
+.list h3 {
+  margin: 0 0 5px;
+  color: #555;
+}
+
+/* Карточки */
+.card {
+  padding: 10px;
+  background-color: #eef5f9;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Кнопка добавления списка и карточек */
+button.add-button {
+  margin-bottom: 10px;
+  padding: 5px;
+}
